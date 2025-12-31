@@ -6,7 +6,7 @@ function App() {
       <header className="header">
         <h1 className="title">George Bradford</h1>
         <a
-          href="https://x.com"
+          href="https://x.com/georgebradford0"
           target="_blank"
           rel="noopener noreferrer"
           className="x-link"

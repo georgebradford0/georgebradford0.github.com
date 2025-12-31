@@ -1,14 +1,40 @@
 import './App.css'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, Link } from 'react-router-dom'
 import Home from './Home'
 import Article from './Article'
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/article/:slug" element={<Article />} />
-    </Routes>
+    <>
+      <header className="app-header">
+        <div className="header-content">
+          <Link to="/" className="title-link">
+            <h1 className="title">George Bradford</h1>
+          </Link>
+          <a
+            href="https://x.com/georgebradford0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="x-link"
+            aria-label="X (Twitter)"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+            </svg>
+          </a>
+        </div>
+      </header>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/article/:slug" element={<Article />} />
+      </Routes>
+    </>
   )
 }
 

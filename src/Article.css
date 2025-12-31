@@ -1,0 +1,72 @@
+.article-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-content {
+  width: 50%;
+  max-width: 800px;
+}
+
+.article-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.article-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.article-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.article-content p {
+  line-height: 1.8;
+  margin: 1rem 0;
+}
+
+.article-content code {
+  background-color: #f4f4f4;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+}
+
+.article-content pre {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.article-content pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+.article-content ul, .article-content ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.article-content li {
+  margin: 0.5rem 0;
+}
+
+.article-content .katex-display {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+@media (max-width: 768px) {
+  .article-content {
+    width: 90%;
+  }
+}

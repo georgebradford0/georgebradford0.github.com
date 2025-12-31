@@ -16,10 +16,11 @@ html {
 }
 
 .header-content {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 2rem;
 }
 
 .title-link {
@@ -37,7 +38,7 @@ html {
 
 @media (max-width: 768px) {
   .header-content {
-    width: 90%;
+    padding: 0 1rem;
   }
 
   .article-links {

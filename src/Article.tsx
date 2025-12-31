@@ -134,6 +134,7 @@ function Article() {
 
   return (
     <div className="article-container-with-sidebar" ref={containerRef}>
+      <div></div>
       <article className="article-content">
         <ReactMarkdown
           remarkPlugins={[remarkMath, remarkGfm]}

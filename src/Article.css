@@ -9,18 +9,19 @@
 .article-container-with-sidebar {
   min-height: 100vh;
   width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
+  max-width: 100vw;
+  margin: 0;
   display: grid;
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: 1fr minmax(500px, 2fr) minmax(250px, 300px);
   gap: 2rem;
   padding: 2rem;
   position: relative;
+  box-sizing: border-box;
 }
 
 .article-content {
   width: 100%;
-  max-width: 650px;
+  max-width: 900px;
 }
 
 .article-sidebar {
@@ -105,10 +106,14 @@
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .article-container-with-sidebar {
     grid-template-columns: 1fr;
     padding: 1rem;
+  }
+
+  .article-container-with-sidebar > div:first-child {
+    display: none;
   }
 
   .article-sidebar {
@@ -117,5 +122,6 @@
 
   .article-content {
     width: 100%;
+    max-width: 100%;
   }
 }

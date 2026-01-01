@@ -92,7 +92,8 @@ function Article() {
     },
     section: ({ children, ...props }: any) => {
       // Footnote definitions are in a section with data-footnotes
-      if (props['data-footnotes']) {
+      // Check both data-footnotes and dataFootnotes (camelCase from rehype-raw)
+      if (props['data-footnotes'] || props['dataFootnotes'] || props.className?.includes('footnotes')) {
         // Don't render the default footnote section
         return null
       }

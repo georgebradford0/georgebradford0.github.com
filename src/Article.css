@@ -163,6 +163,8 @@
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   background-color: #fafafa;
   animation: expandAnimation 0.3s ease;
 }

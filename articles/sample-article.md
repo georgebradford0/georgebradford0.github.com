@@ -27,11 +27,37 @@ console.log(greeting);
 
 ## More Math
 
-The quadratic formula[^3] is:
+The quadratic formula[^3] is derived by completing the square. Starting with:
 
-$$
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
+$$ax^2 + bx + c = 0$$
+
+Divide both sides by $a$:
+
+$$x^2 + \frac{b}{a}x + \frac{c}{a} = 0$$
+
+<details class="inline-derivation">
+<summary>⋯</summary>
+
+Move the constant term to the right:
+$$x^2 + \frac{b}{a}x = -\frac{c}{a}$$
+
+Complete the square by adding $\left(\frac{b}{2a}\right)^2$ to both sides:
+$$x^2 + \frac{b}{a}x + \left(\frac{b}{2a}\right)^2 = \left(\frac{b}{2a}\right)^2 - \frac{c}{a}$$
+
+Factor the left side:
+$$\left(x + \frac{b}{2a}\right)^2 = \frac{b^2}{4a^2} - \frac{c}{a}$$
+
+Simplify the right side:
+$$\left(x + \frac{b}{2a}\right)^2 = \frac{b^2 - 4ac}{4a^2}$$
+
+Take the square root of both sides:
+$$x + \frac{b}{2a} = \pm\frac{\sqrt{b^2 - 4ac}}{2a}$$
+
+</details>
+
+Therefore:
+
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
 ## Text Formatting
 

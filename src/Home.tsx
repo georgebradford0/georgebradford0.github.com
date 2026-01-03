@@ -18,11 +18,6 @@ function Home() {
         </nav>
       </section>
 
-      <section className="article-section">
-        <h2>History/Politics</h2>
-        <nav className="article-links">
-        </nav>
-      </section>
     </div>
   )
 }

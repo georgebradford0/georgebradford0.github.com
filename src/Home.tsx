@@ -6,15 +6,18 @@ function Home() {
       <section className="article-section">
         <h2>Intelligence</h2>
         <nav className="article-links">
-          <Link to="/article/sample-article" className="article-link">
-            Sample Article
-          </Link>
         </nav>
       </section>
 
       <section className="article-section">
         <h2>Bodybuilding</h2>
         <nav className="article-links">
+          <Link to="https://callos.io/download">
+            Callos App
+          </Link>
+          <Link to="https://callos.io/blog">
+            Callos Blog
+          </Link>
         </nav>
       </section>
 

@@ -12,11 +12,8 @@ function Home() {
       <section className="article-section">
         <h2>Bodybuilding</h2>
         <nav className="article-links">
-          <Link to="https://callos.io/download">
+          <Link to="https://callos.io/download" className="article-link">
             Callos App
-          </Link>
-          <Link to="https://callos.io/blog">
-            Callos Blog
           </Link>
         </nav>
       </section>

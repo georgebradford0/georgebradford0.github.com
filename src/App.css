@@ -87,6 +87,10 @@ html {
   gap: 0.5rem;
 }
 
+.contact-page {
+  width: 50%;
+}
+
 .article-link {
   display: block;
   color: inherit;

@@ -7,7 +7,10 @@ function Home() {
         <h2>Apps</h2>
         <nav className="article-links">
           <Link to="https://callos.io/download" className="article-link">
-            Callos App
+            Peakt
+          </Link>
+          <Link to="https://github.com/georgebradford0/octo.git" className="article-link">
+            Octo
           </Link>
         </nav>
       </div>

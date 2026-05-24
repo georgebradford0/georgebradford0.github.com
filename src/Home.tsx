@@ -6,11 +6,8 @@ function Home() {
       <div className="article-section">
         <h2>Apps</h2>
         <nav className="article-links">
-          <Link to="https://callos.io/download" className="article-link">
-            Peakt
-          </Link>
-          <Link to="https://github.com/georgebradford0/octo.git" className="article-link">
-            Octo
+          <Link to="https://github.com/georgebradford0/okto.git" className="article-link">
+            Okto
           </Link>
         </nav>
       </div>

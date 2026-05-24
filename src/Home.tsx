@@ -9,6 +9,9 @@ function Home() {
           <Link to="https://github.com/georgebradford0/okto.git" className="article-link">
             Okto
           </Link>
+          <Link to="https://github.com/georgebradford0/lenguas.git" className="article-link">
+            Lenguas
+          </Link>
         </nav>
       </div>
     </div>
